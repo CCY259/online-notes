@@ -123,8 +123,8 @@ $$x\text{ is even} \iff \exists k\in\mathbb{Z}\text{ s.t. }x=2k.$$
 | $\alpha_1,\dots,\alpha_n$ | scalars in $F$                 | with表示$\forall$                                                    |
 | $v_1,\dots, v_n$          | vectors in $S$                 | with表示$\forall$                                                    |
 **句子形式：** If (Property 1) with (Elements), then (Property 2).
-**Property 1: $\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0$
-Property 2:** $\alpha_1=\alpha_2=\cdots=\alpha_n=0$
+**Property 1:** $\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0$
+**Property 2:** $\alpha_1=\alpha_2=\cdots=\alpha_n=0$
 ***
 可以再拆分看：
 1. $\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0$ 这个没什么好说的，就是一个equation。
@@ -141,8 +141,8 @@ $$\sum_{i=1}^n \alpha_iv_i = 0.$$
 在这个情况，可有可无。
 不过在特定情况，这个表述方式可以方便后续的计算，如一些number theory的题。
 >
-**不是说点点点不好用，而是要看处理情况。**
-比如遇到telescoping series，而点点点在此时计算方面更占优势。
+>**不是说点点点不好用，而是要看处理情况。**
+>比如遇到telescoping series，而点点点在此时计算方面更占优势。
 
 因此这个definition可以翻译为
 $$\forall \alpha_1,\dots, \alpha_n\in F, v_1,\dots, v_n\in S,\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0\implies \forall i\in\{1,\dots, n\}, \alpha_i= 0.$$
