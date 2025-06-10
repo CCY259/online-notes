@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: MATH NOTE
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+How to learn math, see [[How to prove and read mathematics]].
+
