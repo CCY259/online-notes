@@ -7,7 +7,7 @@
 | ----------------------- | ------------------------- |
 | x has the form $2k$     | $x = 2k$                  |
 | where $k$ is an integer | $\exists k\in \mathbb{Z}$ |
-因此我们其实可以写成$$
+因此我们其实可以写成 $$
 x\text{ is even} \iff \exists k\in\mathbb{Z}\text{ s.t. }x=2k.
 $$
 > [!Info] 小重点
