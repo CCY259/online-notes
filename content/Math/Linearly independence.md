@@ -15,9 +15,11 @@
 ***
 可以再拆分看：
 1. $\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0$ 这个没什么好说的，就是一个equation。
-2. $\alpha_1=\alpha_2=\cdots=\alpha_n=0$ 还可以继续处理，我可以把这些index 1,...,n总结起来，用$\forall$来表达。我们可以将其表述为$$
+2. $\alpha_1=\alpha_2=\cdots=\alpha_n=0$ 还可以继续处理，我可以把这些index 1,...,n总结起来，用$\forall$来表达。我们可以将其表述为
+$$
 \forall i\in\{1,\dots, n\}, \alpha_i= 0.
-$$为什么要这么做？因为找negation的时候就会比较容易。
+$$
+为什么要这么做？因为找negation的时候就会比较容易。
 
 > [!summary] 想法总结：消除点点点
 > 这里可以看出一个想法：看到一些statement喜欢用点点点$\cdots$的时候，我们经常可以把index写成set的形式，以便转化为可以用$\forall$或$\exists$的形式。
@@ -26,14 +28,17 @@ $$为什么要这么做？因为找negation的时候就会比较容易。
 > 
 > 此想法也激起一些讨论：$\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0$也是有点点点哦？不用处理？
 也可以处理的哦，毕竟我们有summation的notation，就是
-$$\sum_{i=1}^n \alpha_iv_i = 0.$$
+$$
+\sum_{i=1}^n \alpha_iv_i = 0.
+$$
 在这个情况，可有可无。
 不过在特定情况，这个表述方式可以方便后续的计算，如一些number theory的题。
 >
 >**不是说点点点不好用，而是要看处理情况。**
 >比如遇到telescoping series，而点点点在此时计算方面更占优势。
 
-因此这个definition可以翻译为$$
+因此这个definition可以翻译为
+$$
 \forall \alpha_1,\dots, \alpha_n\in F, v_1,\dots, v_n\in S,\alpha_1 v_1+\alpha_2v_2+\cdots+\alpha_n v_n = 0\implies \forall i\in\{1,\dots, n\}, \alpha_i= 0.
 $$
 ***
